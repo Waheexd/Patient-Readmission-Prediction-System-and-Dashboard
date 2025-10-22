@@ -1,16 +1,23 @@
 🏥 Patient Readmission Analysis using PySpark & Power BI
+
 Overview
+
 This project focuses on analyzing hospital patient readmission patterns using the UCI Diabetic Readmission Dataset. 
 The goal is to predict patient readmissions, identify key factors driving them, and visualize insights through an interactive Power BI dashboard. 
 The entire workflow — from cleaning to modeling — is automated using PySpark, enabling scalable and reproducible healthcare analytics.
 
 🚀Project Objectives
+
 Build an end-to-end machine learning pipeline in PySpark to predict patient readmissions.
+
 Handle class imbalance using SMOTE and optimize model performance
+
 Export clean, interpretable predictions for visualization in Power BI.
+
 Deliver actionable insights to support hospital resource planning and readmission reduction strategies.
 
 🤖Tech Stack
+
 Data Processing: PySpark, Pandas
 
 Balancing: SMOTE (imblearn)
@@ -43,8 +50,11 @@ Designed a Power BI dashboard displaying demographic and clinical readmission tr
 Created KPIs and visuals to monitor performance metrics and treatment patterns.
 
 🎯Key Insights
+
 Higher readmission rates are observed among patients with longer hospital stays, multiple diagnoses, and higher medication counts.
+
 Age and treatment type (insulin/diabetesMed) have noticeable effects on readmission probability.
+
 Certain admission and discharge types show recurring readmission patterns, suggesting operational inefficiencies.
 
 
