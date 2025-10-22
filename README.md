@@ -33,20 +33,31 @@ Environment: Google Colab / Jupyter
 ⚙️Workflow
 
 1. Data Preparation
+   
 Imported the UCI Diabetic Readmission dataset.
+
 Cleaned and standardized columns (race, gender, age, admission_type_id, time_in_hospital, num_medications, number_diagnoses, etc.).
+
 Removed duplicates, invalid entries (?, Unknown), and unnecessary fields.
+
 Encoded categorical features using StringIndexer and assembled features for modeling.
 
-2. Model Development (PySpark MLlib)
-Built a pipeline using:
+4. Model Development (PySpark MLlib)
+
+Built a pipeline using
+
 StringIndexer → VectorAssembler → StandardScaler → RandomForestClassifier
+
 Applied SMOTE on sampled data to address class imbalance.
+
 Evaluated model using AUC, Precision, and Recall metrics.
+
 Exported predictions for visualization.
 
-3. Visualization (Power BI)
+6. Visualization (Power BI)
+   
 Designed a Power BI dashboard displaying demographic and clinical readmission trends.
+
 Created KPIs and visuals to monitor performance metrics and treatment patterns.
 
 🎯Key Insights
