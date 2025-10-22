@@ -12,10 +12,15 @@ Deliver actionable insights to support hospital resource planning and readmissio
 
 🤖Tech Stack
 Data Processing: PySpark, Pandas
+
 Balancing: SMOTE (imblearn)
+
 Modeling: PySpark MLlib (Random Forest)
+
 Visualization: Power BI
+
 EDA & Charts: Matplotlib, Seaborn
+
 Environment: Google Colab / Jupyter
 
 ⚙️Workflow
